@@ -1,9 +1,8 @@
 package Models;
 
-public class Guest {
-    private String firstName, lastName, phone;
-
-    
+public class Children {
+    private String firstName, lastName;
+    private Integer age;
 
     public String getFirstName() {
         return firstName;
@@ -21,11 +20,11 @@ public class Guest {
         this.lastName = lastName;
     }
 
-    public String getPhone() {
-        return phone;
+    public Integer getAge() {
+        return age;
     }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
+    public void setAge(Integer age) {
+        this.age = age;
     }
 }
